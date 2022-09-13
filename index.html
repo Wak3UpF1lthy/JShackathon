@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="register">
+        <h1>Регистрация</h1>
+        <div class="navbar__inputs">
+          <input
+            type="text"
+            class="nameinput"
+            id="nametext"
+            placeholder="Введите свое имя"
+          />
+          <input
+            type="password"
+            class="passwordinput"
+            id="passtext"
+            placeholder="Введите пароль"
+          />
+          <input
+            type="password"
+            class="passwordcheckinput"
+            id="passchecktext"
+            placeholder="Подтвердите пароль еще раз"
+          />
+          <input
+            type="number"
+            class="ageinput"
+            id="agetext"
+            placeholder="Введите свой возраст"
+          />
+        </div>
+        <button onclick="registerUser()" id="register">
+          Зарегистрироваться
+        </button>
+      </div>
+      <div class="enter">
+        <h2>Вход</h2>
+        <input type="text" class="lognameinput" placeholder="Введите имя" />
+        <input
+          type="password"
+          class="logpasswordinput"
+          placeholder="Введите пароль"
+        />
+        <button onclick="loginUser()" id="enter">Войти в аккаунт</button>
+        <div class="divan"></div>
+        <button onclick="logoutUser()" id="logout">Выйти из аккаунта</button>
+      </div>
+      <div class="update">
+        <h2>Управление аккаунтом</h2>
+        <button onclick="updateUserAccount()" id="update">
+          Редактировать аккаунт
+        </button>
+        <button onclick="deleteUser()" id="delete">Удалить аккаунт</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

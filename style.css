@@ -1,0 +1,78 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2% 0;
+  display: flex;
+}
+.navbar__inputs {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+#nametext {
+  width: 300px;
+  height: 30px;
+}
+#passtext {
+  margin-top: 10px;
+  width: 300px;
+  height: 30px;
+}
+#passchecktext {
+  margin-top: 10px;
+  width: 300px;
+  height: 30px;
+}
+#agetext {
+  margin-top: 10px;
+  width: 300px;
+  height: 30px;
+}
+#register {
+  margin-top: 10px;
+  width: 200px;
+}
+.enter {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-left: 15%;
+}
+.lognameinput {
+  margin-top: 10px;
+  width: 300px;
+  height: 30px;
+}
+.logpasswordinput {
+  margin-top: 10px;
+  width: 300px;
+  height: 30px;
+}
+#enter {
+  margin-top: 10px;
+  width: 200px;
+}
+.divan {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 28px;
+  color: blue;
+}
+#logout {
+  margin-top: 40px;
+  width: 200px;
+}
+.update {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-left: 15%;
+}
+#update {
+  margin-top: 10px;
+  width: 200px;
+}
+#delete {
+  margin-top: 10px;
+  width: 200px;
+}
